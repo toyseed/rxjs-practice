@@ -1,0 +1,32 @@
+{
+  "name": "rxjs-playground",
+  "version": "1.0.0",
+  "description": "Make sure you have node installed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "babelify": "^10.0.0",
+    "browserfy": "^1.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-cached": "^1.1.1",
+    "gulp-load-plugins": "^2.0.1",
+    "live-server": "^1.2.1",
+    "nodemon": "^1.19.3",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.1"
+  },
+  "dependencies": {
+    "colour": "^0.7.1",
+    "jquery": "^3.4.1",
+    "ldash": "0.0.1-security",
+    "moment": "^2.24.0",
+    "rxjs": "^6.5.3"
+  }
+}

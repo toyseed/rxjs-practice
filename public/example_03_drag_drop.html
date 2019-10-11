@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Drag and Drop with rxjs</title>
+    <style>
+      .draggable {
+        transition: background-color 250ms;
+        background-color: #aaaaaa;
+        border: solid 5px #666666;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 0;
+        left: 0;
+      }
+
+      .draggable.dragging {
+        opacity: 0.7;
+        pointer-events: none;
+      }
+
+      .drop-area {
+        padding: 20px;
+        margin: 10px;
+        transition: background-color 250ms;
+        background-color: #4e9dff;
+        color: #ffffff;
+      }
+
+      .drop-area.dropped {
+        background-color: #fee200;
+        color: #000000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="draggable" id="draggable"></div>
+
+    <ul>
+      <li class="drop-area">Drop Area 1</li>
+      <li class="drop-area">Drop Area 2</li>
+      <li class="drop-area">Drop Area 3</li>
+      <li class="drop-area">Drop Area 4</li>
+      <li class="drop-area">Drop Area 5</li>
+      <li class="drop-area">Drop Area 6</li>
+    </ul>
+    <script src="/build/example_03_drag_drop.js"></script>
+  </body>
+</html>
