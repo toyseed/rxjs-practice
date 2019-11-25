@@ -9,8 +9,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.6.4",
     "@babel/core": "^7.6.3",
     "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.6.2",
     "babelify": "^10.0.0",
     "browserfy": "^1.0.0",
     "gulp": "^4.0.2",
