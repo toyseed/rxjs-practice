@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "colour": "^0.7.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ldash": "0.0.1-security",
     "moment": "^2.24.0",
     "rxjs": "^6.5.3"
