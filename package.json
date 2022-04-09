@@ -28,7 +28,7 @@
     "colour": "^0.7.1",
     "jquery": "^3.4.1",
     "ldash": "0.0.1-security",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "rxjs": "^6.5.3"
   }
 }
